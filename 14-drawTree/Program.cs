@@ -43,9 +43,10 @@ namespace _14_drawTree
                                 }
                                 Console.Write("\n");
                             }
+                            int spaceToLog = HTree - (BLog / 2);
                             for (int m = 0;  m < HLog;  m++)
                             {
-                                for (int l = 0; l < BLog / 2 - HTree; l++)
+                                for (int l = 0; l < spaceToLog; l++)
                                 {
                                     Console.Write(" ");
                                 }
@@ -53,6 +54,7 @@ namespace _14_drawTree
                                 {
                                     Console.Write("*");
                                 }
+                                Console.Write("\n");
                             }
                             
 
