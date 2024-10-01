@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-Schleifen", "12-Schleife
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-schaltjahre", "13-schaltjahre\13-schaltjahre.csproj", "{411270DF-946B-416B-AE3E-BC7EB960FE0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-drawTree", "14-drawTree\14-drawTree.csproj", "{42E4D80D-DA21-4A41-BDD2-114DEA8BBC4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{411270DF-946B-416B-AE3E-BC7EB960FE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{411270DF-946B-416B-AE3E-BC7EB960FE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{411270DF-946B-416B-AE3E-BC7EB960FE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E4D80D-DA21-4A41-BDD2-114DEA8BBC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E4D80D-DA21-4A41-BDD2-114DEA8BBC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E4D80D-DA21-4A41-BDD2-114DEA8BBC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E4D80D-DA21-4A41-BDD2-114DEA8BBC4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
