@@ -67,12 +67,12 @@ namespace nameMonth
                     }
                     else
                     {
-                        Console.WriteLine("Something went wrong");
+                        Console.WriteLine("Bitte eine Zahl zwischen 1 und 12 eingeben.");
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Something went wrong");
+                    Console.WriteLine("Ungütlige Eingabe. Ganzzahl zwischen 1 und 12 erwartet.");
                 }
             }
         }
