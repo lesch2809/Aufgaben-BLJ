@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-DrawLine", "11-DrawLine\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-Schleifen", "12-Schleifen\12-Schleifen.csproj", "{E9C5DBDA-C725-4AB7-B873-5DC738C7C768}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-schaltjahre", "13-schaltjahre\13-schaltjahre.csproj", "{411270DF-946B-416B-AE3E-BC7EB960FE0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{E9C5DBDA-C725-4AB7-B873-5DC738C7C768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9C5DBDA-C725-4AB7-B873-5DC738C7C768}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9C5DBDA-C725-4AB7-B873-5DC738C7C768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411270DF-946B-416B-AE3E-BC7EB960FE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411270DF-946B-416B-AE3E-BC7EB960FE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411270DF-946B-416B-AE3E-BC7EB960FE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411270DF-946B-416B-AE3E-BC7EB960FE0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

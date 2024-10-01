@@ -39,13 +39,13 @@ namespace _10_divisionQuersumme
                         }
                         else
                         {
-                            Console.WriteLine("GetIndexBinder eine Gültige zahl ein.");
+                            Console.WriteLine("Gib eine Gültige zahl ein.");
                         }
                     }break;
                 }
                 else
                 {
-                    Console.WriteLine("GetIndexBinder eine Gültige zahl ein.");
+                    Console.WriteLine("Gib eine Gültige zahl ein.");
                 }
             }Console.ReadKey();
         }
@@ -59,7 +59,6 @@ namespace _10_divisionQuersumme
                     sum = sum + (zahl % 10);
                     zahl = zahl / 10;
 
-                    // todo: Quersumme von 'zahl' berechnen und zurückgeben (return)
                 }
                 else
                 {
