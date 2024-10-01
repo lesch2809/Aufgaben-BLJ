@@ -13,8 +13,6 @@ namespace _09_Quersumme
             string Zahl = Console.ReadLine();
             if (int.TryParse(Zahl, out int num) == true)
             {
-                
-                
                 num = BerechneQuersumme(num);
                 Console.WriteLine(num);
             }

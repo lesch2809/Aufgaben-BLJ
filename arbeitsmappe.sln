@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-Quersumme", "09-Quersumm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-divisionQuersumme", "10-divisionQuersumme\10-divisionQuersumme.csproj", "{B8F58285-089A-49A2-A3F0-A63340B6624A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-DrawLine", "11-DrawLine\11-DrawLine.csproj", "{BAD8F2F6-A56C-4E9F-A564-78EB618D9893}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{B8F58285-089A-49A2-A3F0-A63340B6624A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8F58285-089A-49A2-A3F0-A63340B6624A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8F58285-089A-49A2-A3F0-A63340B6624A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD8F2F6-A56C-4E9F-A564-78EB618D9893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD8F2F6-A56C-4E9F-A564-78EB618D9893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD8F2F6-A56C-4E9F-A564-78EB618D9893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD8F2F6-A56C-4E9F-A564-78EB618D9893}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
