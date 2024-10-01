@@ -12,21 +12,25 @@ namespace _08_binaryNunber
         static void Main(string[] args)
         {
             int bin = 0;
+            int number = 0;
             string n = Console.ReadLine();
-            if (int.TryParse(n, out int number) == true)
+            if (int.TryParse(n, out number) == true)
             {
                 while (true)
                 {
 
-                    number = Convert.ToInt32(n);
                     int rest = number % 2;
                     bin = rest + bin;
                     int wert = number / 2;
-                    number = rest;
+                    number = wert;
                     if (number == 0)
                     {
                         Console.WriteLine(bin);
                         break;
+                    }
+                    else
+                    {
+                        Console.Write(bin);
                     }
                 }
             }
