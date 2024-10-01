@@ -18,7 +18,7 @@ namespace _08_binaryNunber
                 while (true)
                 {
 
-
+                    number = Convert.ToInt32(n);
                     int rest = number % 2;
                     bin = rest + bin;
                     int wert = number / 2;
@@ -26,13 +26,14 @@ namespace _08_binaryNunber
                     if (number == 0)
                     {
                         Console.WriteLine(bin);
-                        break
+                        break;
                     }
                 }
             }
             else {
                 Console.WriteLine("Enter a valide number");
-                    }Console.ReadKey();
+                    }
+            Console.ReadKey();
 
         }
     }
