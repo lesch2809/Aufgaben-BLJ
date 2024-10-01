@@ -11,33 +11,49 @@ namespace _08_binaryNunber
     {
         static void Main(string[] args)
         {
-            int bin = 0;
-            int number = 0;
-            string n = Console.ReadLine();
-            if (int.TryParse(n, out number) == true)
+            while (true)
             {
-                while (true)
-                {
+                int bin = 0;
+            int number = 0;
+            int wert;
+            int rest;
+            
 
-                    int rest = number % 2;
-                    bin = rest + bin;
-                    int wert = number / 2;
-                    number = wert;
-                    if (number == 0)
+
+                string n = Console.ReadLine();
+                if (int.TryParse(n, out number) == true)
+                {
+                    while (true)
                     {
-                        Console.WriteLine(bin);
-                        break;
-                    }
-                    else
-                    {
-                        Console.Write(bin);
+
+                        rest = number % 2;
+                        bin = rest + bin;
+                        wert = number / 2;
+                        number = wert;
+                        if (number == 0)
+                        {
+                            Console.WriteLine(bin);
+                            break;
+                        }
+                        else
+                        {
+                            Console.Write(bin);
+                            bin = 0;
+                        }
                     }
                 }
+                else if (n == "q")
+                {
+                    Console.ReadKey();
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Enter a valide number");
+                }
+                
             }
-            else {
-                Console.WriteLine("Enter a valide number");
-                    }
-            Console.ReadKey();
+            
 
         }
     }
