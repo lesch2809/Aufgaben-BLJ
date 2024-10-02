@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{905FEB1D-F920-48B0-B299-29FB911B1CC1}</ProjectGuid>
+    <ProjectGuid>{0966844D-36B1-4A4A-B637-E8E0DE299B88}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_Addierer</RootNamespace>
-    <AssemblyName>01-Addierer</AssemblyName>
+    <RootNamespace>_18_age</RootNamespace>
+    <AssemblyName>18-age</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

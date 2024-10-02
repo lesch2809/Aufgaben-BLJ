@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{905FEB1D-F920-48B0-B299-29FB911B1CC1}</ProjectGuid>
+    <ProjectGuid>{1B7A01C4-9FEC-454B-9E8E-57E5ACF97921}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_Addierer</RootNamespace>
-    <AssemblyName>01-Addierer</AssemblyName>
+    <RootNamespace>_16_countVokal</RootNamespace>
+    <AssemblyName>16-countVokal</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

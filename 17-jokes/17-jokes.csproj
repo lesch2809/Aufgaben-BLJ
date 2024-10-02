@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{905FEB1D-F920-48B0-B299-29FB911B1CC1}</ProjectGuid>
+    <ProjectGuid>{86319780-B8C8-477A-897D-4E2511C21FDA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_Addierer</RootNamespace>
-    <AssemblyName>01-Addierer</AssemblyName>
+    <RootNamespace>_17_jokes</RootNamespace>
+    <AssemblyName>17-jokes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
