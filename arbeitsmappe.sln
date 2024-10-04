@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-jokes", "17-jokes\17-jok
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-age", "18-age\18-age.csproj", "{0966844D-36B1-4A4A-B637-E8E0DE299B88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-Rechner", "19-Rechner\19-Rechner.csproj", "{FEDE37D0-78CF-4D90-B62C-F138A5D88712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FireForest", "FireForest\FireForest.csproj", "{3D0BC236-BC5A-4295-9F67-F4F2763DDB2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{0966844D-36B1-4A4A-B637-E8E0DE299B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0966844D-36B1-4A4A-B637-E8E0DE299B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0966844D-36B1-4A4A-B637-E8E0DE299B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDE37D0-78CF-4D90-B62C-F138A5D88712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDE37D0-78CF-4D90-B62C-F138A5D88712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDE37D0-78CF-4D90-B62C-F138A5D88712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDE37D0-78CF-4D90-B62C-F138A5D88712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0BC236-BC5A-4295-9F67-F4F2763DDB2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0BC236-BC5A-4295-9F67-F4F2763DDB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0BC236-BC5A-4295-9F67-F4F2763DDB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0BC236-BC5A-4295-9F67-F4F2763DDB2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

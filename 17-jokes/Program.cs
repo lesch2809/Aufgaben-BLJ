@@ -15,21 +15,27 @@ namespace Aufgabe_17
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine(ReturnJoke());
-            while (true)
+            try
             {
-                char nj = char.Parse(FragenSpeichern("Nächsten Witz holen?").ToLower());
-                if (nj == 'j')
+                Console.WriteLine(ReturnJoke());
+                while (true)
                 {
-                    Console.WriteLine(ReturnJoke());
-                    Console.WriteLine();
+                    char nj = char.Parse(FragenSpeichern("Nächsten Witz holen?").ToLower());
+                    if (nj == 'j')
+                    {
+                        Console.WriteLine(ReturnJoke());
+                        Console.WriteLine();
+                    }
+                    else
+                    {
+
+                        break;
+                    }
                 }
-                else
-                {
-                    
-                    break;
-                }
+            }
+            catch (Exception ex) {
+                Console.WriteLine("Something went Wrong!");
+                Console.ReadKey();
             }
 
         }
