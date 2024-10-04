@@ -21,11 +21,11 @@ namespace FireForest
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine("Wiehoch ist die Wahrseindlich keit dass ein Baumm begint zu Brennen?");
-            int z = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Wiehoch ist die Wahrseindlich keit dass ein neuer BAum wächst");
-            int w = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Wiel lahng soll das Feld sein?");
+            Console.WriteLine("Wie hoch ist die Wahrscheindlichkeit dass ein Baumm begint zu Brennen?(in %)");
+            int z = 100/Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Wie hoch ist die Wahrscheindlichkeit dass ein neuer Baum wächst (in %)");
+            int w = 100/Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Wiel lang soll das Feld sein?");
             int row = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Wie Hoch soll das Feld sein?");
             int column = Convert.ToInt32(Console.ReadLine());
@@ -61,6 +61,7 @@ namespace FireForest
             {
                 Thread.Sleep(3000);
                 Console.Clear();
+                Console.WriteLine("\x1b[3J");
                 drawField(row, column, forest, z);
                 BiggerBurning(row, column, w);
                // Console.WriteLine("Enter q to quit...");
