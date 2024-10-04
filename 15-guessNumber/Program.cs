@@ -38,14 +38,7 @@ namespace _15_guessNumber
                         {
                             Console.WriteLine("Du hast es Geschafft. Du hast " + counter + " Versuche gebraucht. Nochmals? [y/n]");
                             again = Console.ReadLine();
-                            if (again == "y")
-                            {
-                                break;
-                            }
-                            else { 
-                                break;
-                                
-                            }
+                            break;
                         }
                     }
                 }
