@@ -135,7 +135,7 @@ namespace FireForest
                         {
                             forest[j, i] = "🔸";
                             //BAum Unten Anzünden
-                            if (i + 1 < row && forest[j, i + 1] == "🌳")
+                            if (i + 1 < column && forest[j, i + 1] == "🌳")
                             {
                                 forest[j, i + 1] = "🔥";
                                 forest[j, i] = "🔸";
